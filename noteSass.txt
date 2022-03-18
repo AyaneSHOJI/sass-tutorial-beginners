@@ -1,0 +1,34 @@
+How to start ?
+Sass Tutorial for Beginners - freecodecamp
+https://www.youtube.com/watch?v=_a5j7KoflTs
+
+- install Live Sass Compiler
+- go to setting and search Sass
+- add this code in setting.json
+"liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/dist/css"
+        }
+
+-create "dist" folder with index.html,"css" and main.css
+-click button watch Sass
+-add background color in main.scss file (DO NOT MODIFY main.css FILE)
+-create a variable with $
+-create a map with variables list,
+-map-get($variable, key) to use a variable in map
+-nesting element inside is possible (<p> in <main>)
+-nestign class inside of parent is possible and not to need to write the entire name(.main_paragraphe inside .main can be write #{&}_paragraph, {&} is interpolation)
+-hover can be added inside with &:hover
+-create _resets.scss file in scss folder, import in main.css file without extension name
+-create _variables.scss file in scss folder, import in main.css file without extension name
+-having _resets.scss and _variables.scss is very helpful for work with a team on large project
+-make a function as JS, @function funcName(param){@return func}
+-make a mixin, a component with CSS properties that can be reused, @include nameOfMixin
+-difference between function and mixin : function returns a value, mixin defines styles
+-@mixin exemple, light / dark mode : create @mixin with @if statement, sass lighten and darken functions
+-darken syntax => darken($color, $amount)
+-@mixin for media queries, can be used with @include, it is recommended to create width _variables
+-modify styles partially with @extend
+-calculation is possible but can't mix types
