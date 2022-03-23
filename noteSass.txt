@@ -32,3 +32,5 @@ https://www.youtube.com/watch?v=_a5j7KoflTs
 -@mixin for media queries, can be used with @include, it is recommended to create width _variables
 -modify styles partially with @extend
 -calculation is possible but can't mix types
+
+video until 34:05 
